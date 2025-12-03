@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class QuanLyNhanVien {
+public class QuanLyNhanVien implements IReadWrite{
 
     private HashMap<String, employee> ds = new HashMap<>();
 
@@ -37,5 +37,8 @@ public class QuanLyNhanVien {
     public HashMap<String, employee> getDanhSach(){
         return ds;
     }
+
+    public void ReadData(){};
+    public void WriteData(){};
 }
 
